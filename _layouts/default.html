@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ page.title }} | Atesa</title>
+    <meta property="og:title" content="{{ page.title }}" />
+    <meta property="og:locale" content="en_US" />
+    <link rel="canonical" href="http://atesatutoring.org/" />
+    <meta property="og:url" content="http://atesatutoring.org/" />
+    <meta property="og:site_name" content="atesatutoring" />
+    <meta property="og:type" content="website" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/github-markdown-css/github-markdown.min.css">
+    <style>
+      .markdown-body {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 45px;
+      }
+
+      @media (max-width: 767px) {
+        .markdown-body {
+          padding: 15px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <article class="markdown-body">
+      <title>{{ page.title }}</title>
+      <p>{{ content }}</p>
+    </article>
+  </body>
+</html>
