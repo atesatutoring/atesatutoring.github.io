@@ -20,12 +20,21 @@
         max-width: 980px;
         margin: 0 auto;
         padding: 45px;
+        color: #162B6F;
       }
 
       @media (max-width: 767px) {
         .markdown-body {
           padding: 15px;
         }
+      }
+      .page-heading {
+        box-sizing: border-box;
+        min-width: 200px;
+        max-width: 980px;
+        margin: auto;
+        font-family: Helvetica;
+        font-size: 20px;
       }
       .markdown-body {
         padding: 20px;
@@ -54,7 +63,16 @@
   </head>
   <body>
     <article class="markdown-body">
-      <title>{{ page.title }}</title>
+      <div class="page-heading">
+        <h1>Atesa, Inc.</h1>
+        <div>
+          <p><a href="/">Home</a> | <a href="/about/">About</a>
+        </div>
+        </p>
+      </div>
+    </article>
+    <article class="markdown-body">
+      <title>{{ page.title }} | Atesa</title>
       <p>{{ content }}</p>
     </article>
   </body>
