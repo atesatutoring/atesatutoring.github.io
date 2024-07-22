@@ -1,5 +1,7 @@
 ---
-layout: home
+layout: default
+title:
+permalink: /
 ---
 
 # Who we are
